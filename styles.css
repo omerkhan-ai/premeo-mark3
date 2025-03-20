@@ -280,3 +280,9 @@ footer {
 .nav-btn, .cta-btn, .contact-form button, #back-to-top {
     padding: 16px 32px; /* Slightly larger padding for mobile-friendly touch targets */
 }
+/* Hide Shop button on mobile devices */
+@media (max-width: 768px) {
+    .nav-btn[href="shop.html"] {
+        display: none;
+    }
+}
